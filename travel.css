@@ -1,0 +1,212 @@
+
+header{
+    height: 730px;
+    width: 100%;
+    background-image: url(https://www.incimages.com/uploaded_files/image/1920x1080/getty_583734066_335273.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+.row{
+   
+    height: 200px;
+    width: 50%;
+    color: rgb(51, 3, 155);
+    align-content: flex-end;
+    font-weight: bolder;
+    font-family: 'Overpass', sans-serif;
+
+}  
+.navbar{
+      display: inline;
+    background: transparent;
+    float: right ;
+    top: 0px;
+    margin-top: 0px;
+}
+.col{
+    display: inline;
+    margin-top: 5px;
+    
+    }
+/* .row1{
+    margin-top: 0px;
+    top: 0px;
+    height: 100px;
+} */
+ 
+.q{
+    padding-top: 10px;
+    margin-left: 60%;
+    font-size: 70px;
+    
+}
+.q1{
+    font-family: 'Inspiration', cursive;
+    font-weight: bold;
+}
+.q2{
+    font-family: 'Overpass', sans-serif;
+}
+.q3{
+    font-family: 'Permanent Marker', cursive;
+}
+.q4{
+    font-family: 'Coda Caption', sans-serif;
+}
+/* .modal{
+    position: fixed;
+} */
+.modal1{
+    width: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.card-deck,.h1,.more{
+    width: 100%;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: inline-flex;
+
+}
+.card-img-top{
+width: 100%;
+height: 280px;
+}
+.card{
+    
+    padding: 30px;
+    border: 20px;
+}
+.nav-link:hover
+{
+    font-size: 17px;
+    color: rgb(5, 5, 5);
+}
+h5{
+    font-family: 'Yeon Sung', cursive;
+}
+.d-block{
+    
+    
+    /* width: 1200px; */
+    
+    height: 400px;
+}
+ .card-img-top{
+    transition: transform .2s;
+  
+
+}
+.card-img-top:hover{
+    transform: scale(1.08); 
+}
+
+.section-3{
+    margin:  100px;
+    /* height 500px; */
+    display: inline-block;
+    /* margin: 15px; */
+}
+.ingallery{
+    margin: 30px;
+    
+} 
+.gallery{
+    padding: 50px;
+    margin: 20px;
+    width: 100%;
+    display:flex;
+}
+.nav1:hover{
+    background-color: rgb(61, 61, 117);
+    
+}
+
+.card1-img-top{
+    width: 100%;
+    height: 280px;
+    }
+.card {
+  /* position: relative; */
+  /* display: inline-block; */
+  /* border-bottom: 1px dotted black; */
+}
+
+ .tooltiptext {
+    margin-top: 1% ;
+    padding-top: 0%;
+    float: inline-start;
+  visibility: hidden;
+  
+  margin-left: 2%;
+  width: 80%;
+  height: 60%;
+  background-color: rgba(134, 182, 3, 0.492);
+  color: #fff;
+  /* text-align: center; */
+  border-radius: 6px;
+  /* padding: 5px 0; */
+
+  /* Position the tooltip */
+  position: absolute;
+  /* z-index: 1; */
+}
+
+.card:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* section for revview */
+.testimonial-card .card-up {
+    height: 120px;
+    overflow: hidden;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+  }
+  .testimonial-card .avatar {
+    width: 110px;
+    /* margin-top: -60px; */
+    overflow: hidden;
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+  .sec3_h1{
+    font-family: 'Yellowtail', cursive;
+  }
+  footer{
+    background-color: rgb(24, 2, 85);
+    height: 500px;
+    width: 100%;
+  }
+  .footer{
+    margin-top: 25px;
+    padding-top: 25px;
+    display: flex;
+    margin: 10px;
+  }
+  .footer2{
+    align-content: center;
+    margin-top: 25px;
+    padding-top: 25px;
+    margin-left: 45%;
+   
+   
+  }
+  a:hover
+{
+    text-decoration: none;
+    color: rgb(1, 125, 45);
+    font-size: 17px;
+    color: rgb(5, 5, 5);
+}
+.footer3{
+    display: inline;
+    justify-content: space-around;
+    padding: 50%;
+    }
+.fa-brands{
+    margin-inline:  8%;
+}
